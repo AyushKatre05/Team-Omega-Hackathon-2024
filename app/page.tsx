@@ -1,7 +1,6 @@
 "use client";
 import { useRouter } from 'next/navigation';
 import { Button } from '@/components/ui/button';
-import Link from 'next/link';
 
 const Home = () => {
   const router = useRouter();
@@ -14,14 +13,22 @@ const Home = () => {
   };
 
   return (
-    <div className="min-h-screen bg-black text-white flex flex-col items-center">
+    <div 
+      className="min-h-screen bg-black text-white flex flex-col items-center"
+      style={{ 
+        backgroundImage: "url('landing.jpg')",  // Specify your image path here
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       {/* Header */}
-      <header className="w-full py-6 bg-red-600 text-center">
+      <header className="w-full py-6 bg-red-600 bg-opacity-80 text-center">
         <h1 className="text-4xl font-bold">AI Content Generator</h1>
       </header>
 
       {/* Hero Section */}
-      <div className="flex flex-col items-center justify-center text-center py-16 px-4">
+      <div className="flex flex-col items-center justify-center text-center py-16 px-4 bg-black bg-opacity-70">
         <h2 className="text-5xl font-bold">Welcome to AI Content Generator</h2>
         <p className="mt-4 text-lg max-w-lg">
           Effortlessly create high-quality content with our AI-powered tools. Save time and focus on growing your business.
@@ -35,7 +42,7 @@ const Home = () => {
       </div>
 
       {/* Feature Section */}
-      <div className="w-full py-16 flex flex-col items-center justify-center px-4">
+      <div className="w-full py-16 flex flex-col items-center justify-center px-4 bg-black bg-opacity-70">
         <h2 className="text-4xl font-bold mb-8">Features</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl w-full">
           <div
@@ -56,7 +63,7 @@ const Home = () => {
       </div>
 
       {/* Footer */}
-      <footer className="w-full py-6 bg-red-600 text-center text-white">
+      <footer className="w-full py-6 bg-red-600 bg-opacity-80 text-center text-white">
         <p>&copy; 2024 AI Content Generator. All rights reserved.</p>
       </footer>
     </div>
