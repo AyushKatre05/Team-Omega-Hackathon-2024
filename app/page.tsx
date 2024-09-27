@@ -24,12 +24,12 @@ const Home = () => {
     >
       {/* Header */}
       <header className="w-full py-6 bg-red-600 bg-opacity-80 text-center">
-        <h1 className="text-4xl font-bold">AI Content Generator</h1>
+        <h1 className="text-4xl font-bold">Team Omega</h1>
       </header>
 
       {/* Hero Section */}
       <div className="flex flex-col items-center justify-center text-center py-16 px-4 bg-black bg-opacity-70">
-        <h2 className="text-5xl font-bold">Welcome to AI Content Generator</h2>
+        <h2 className="text-5xl font-bold">AI Driven Content Management System </h2>
         <p className="mt-4 text-lg max-w-lg">
           Effortlessly create high-quality content with our AI-powered tools. Save time and focus on growing your business.
         </p>
