@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# AI Driven Content Management System
 
-First, run the development server:
+## Description
+AI Driven Content Management System is a project aimed at providing organizations with tools to automatically generate content for their social media posts and gain insights from the posts' performance. It simplifies content creation and enables data-driven decision-making by offering two main features:
+1. **Content Generation**: Automates the generation of posts for social media.
+2. **Insights**: Views and analyzes the performance of posts using various metrics.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
+- **AI-Powered Content Generation**: Generates engaging content for various social media platforms.
+- **Post Performance Insights**: Analyzes and visualizes key metrics like likes, comments, shares, etc.
+- **User-Friendly Interface**: Easy-to-use UI for both content creation and viewing insights.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Checkout our project
+-[AI Driven Content Management System](https://team-omega-hackathon-2024.vercel.app)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech
+This project utilizes a range of technologies to deliver high performance and scalability:
+- **Next.js**: React framework for server-side rendering and static site generation.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **TypeScript**: Superset of JavaScript for static typing.
+- **Google Generative AI**: AI model to generate and enhance content.
+- **Drizzle ORM**: Database ORM for managing and querying data.
+- **Clerk.js**: Authentication service.
+- **Chart.js**: Library to visualize insights in the form of charts.
+- **Neon Database**: Serverless database integration for data management.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AyushKatre05/Team-Omega-Hackathon-2024.git
 
-## Learn More
+2. Navigate to the project directory:
+    ```bash
+    cd ai_content_generator
 
-To learn more about Next.js, take a look at the following resources:
+3. Install dependencies:
+    ```bash
+    npm install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Push database schema (using Drizzle ORM):
+    ```bash
+    npm run db:push
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+5. Start the development server:
+    ```bash
+    npm run dev
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+
+
+
+## Authors
+
+- [Ayush Katre](https://www.github.com/ayushkatre05)
+
+
+
+This project was created by Team Omega:
+
+Ayush Katre
+Zuber Khan
+Shreya Vispute
+Harsh Thakur
+Sahil Jaiswal
